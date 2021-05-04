@@ -1,3 +1,3 @@
-import { Product } from '../../types';
+import { ProductGroup } from '../../types';
 
-export interface MenuItemProps extends Product {}
+export interface MenuItemProps extends ProductGroup {}
