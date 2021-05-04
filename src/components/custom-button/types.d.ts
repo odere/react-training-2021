@@ -1,4 +1,6 @@
 export interface CustomButtonProps {
-  type?: 'submit' | 'reset' | 'button';
   children?: ReactNode;
+  className?: string;
+  onClick?: FormEventHandler<HTMLFormElement>;
+  type?: 'submit' | 'reset' | 'button';
 }

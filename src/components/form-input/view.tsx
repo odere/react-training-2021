@@ -5,7 +5,7 @@ import { FormInputProps } from './types';
 import './styles.scss';
 
 export const FormInput: React.FC<FormInputProps> = (props) => {
-  const { handleChange, label, ...otherProps } = props;
+  const { onChange, label, ...otherProps } = props;
   const shrinkClassName = otherProps.value.length ? 'shrink' : '';
 
   return (
@@ -13,7 +13,7 @@ export const FormInput: React.FC<FormInputProps> = (props) => {
       <input
         id={label}
         className="form-input"
-        onChange={handleChange}
+        onChange={onChange}
         {...otherProps}
       />
       <label className={`${shrinkClassName} form-input-label`} htmlFor={label}>

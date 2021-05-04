@@ -8,7 +8,7 @@ export const Shop = () => {
   const [collections] = useState<ProductGroup[]>(SHOP_DATA);
 
   return (
-    <div className="shop-page">
+    <div className="shop-page container">
       {collections.map(({ id, ...otherCollectionProps }) => (
         <CollectionPreview
           key={id}

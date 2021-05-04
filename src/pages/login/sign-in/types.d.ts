@@ -1,4 +1,4 @@
-export interface AuthState {
+export interface SignInState {
   email: string;
   password: string;
 }

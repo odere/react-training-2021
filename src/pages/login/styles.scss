@@ -1,0 +1,10 @@
+.auth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  & > * {
+    padding-right: 1rem;
+    flex: 1 0 25%;
+  }
+}
