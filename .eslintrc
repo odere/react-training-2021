@@ -14,6 +14,7 @@
   },
   "rules": {
     "object-curly-spacing": ["warn", "always"],
+    "react/button-has-type": ["off"],
     "no-unused-vars": [
       "warn",
       {
